@@ -174,25 +174,19 @@ $languages = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <!-- CSS -->
     <link rel="stylesheet" href="./dist/style.css">
     <title>PHP Google Faq</title>
 </head>
 <body>
 
-    <!-- App -->
     <div id="app">
 
-        <!-- Header -->
+        <!-- header -->
         <header>
-            <!-- Nav Fixed -->
+            <!-- nav fixed -->
             <nav>
                 <div class="nav-top">
                     <div class="nav-top-left">
@@ -220,11 +214,11 @@ $languages = [
                     <?php } ?>
                 </div>
             </nav>
-            <!-- / Nav Fixed -->
+            <!-- /nav -->
         </header>
-        <!-- / Header Fixed -->
+        <!-- /header -->
 
-        <!-- Main -->
+        <!-- main -->
         <main>
             <div class="container">
                 <?php foreach($faqs as $key1 => $value1) {
@@ -245,9 +239,9 @@ $languages = [
                 } ?>
             </div>
         </main>
-        <!-- / Main -->
+        <!-- /main -->
 
-        <!-- Footer -->
+        <!-- footer -->
         <footer>
             <div class="container">
                 <div class="left">
@@ -284,10 +278,8 @@ $languages = [
                 </div>
             </div>
         </footer>
-        <!-- / Footer -->
-
+        <!-- /footer -->
     </div>
-    <!-- / App -->
 
 </body>
 </html>

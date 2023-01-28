@@ -9,7 +9,7 @@
 
 ### Purpose of the exercise:
 
-Practicing more advanced notions of PHP (foreach, errors checking, ).
+Practicing more advanced notions of PHP (foreach, errors checking).
 
 Rewrite the Google FAQ page. Manage the data and visualization of these questions and answers with PHP.
 
